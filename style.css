@@ -30,6 +30,7 @@ button:hover p{
     padding:40px;
     padding-left:40px;
     width:200px;
+    margin-top:200px;
 }
 #card .img{
     padding-bottom:30px;
@@ -45,8 +46,7 @@ button:hover p{
 .card-1{
     background-color:#E28525;
     border-radius: 10px 0 0 10px; 
-    margin-left:200px;
-    margin-top:200px;  
+    margin-left:200px; 
 }
 .card-1 button:hover{
     border:2px solid white;
@@ -55,7 +55,6 @@ button:hover p{
 }
 .card-2{
     background-color:#016972;
-    margin-top:200px;
 }
 .card-2 button:hover{
     border:2px solid white;
@@ -64,7 +63,6 @@ button:hover p{
 .card-3{
     background-color:#00403F;
     border-radius: 0 10px 10px 0;
-    margin-top:200px;
 }
 .card-3 button:hover{
     border:2px solid white;
