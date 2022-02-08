@@ -21,7 +21,7 @@ button:hover p{
     color:white;
 }
 .col-3 {width: 25%;}
-.design{
+.main{
     display:flex;
     flex-direction:row;
 }
@@ -72,7 +72,7 @@ button:hover p{
 }
 
 @media (max-width:400px){
-    .design{
+    .main{
         display:flex;
         flex-direction:column;
     }
