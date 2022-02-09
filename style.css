@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:#F2F2F2;
+    max-width:100%;
+    font-family: 'Roboto', sans-serif;
+}
+button{
+    border:none;
+    font-size:18px;
+    background-color:#F4EFF3;
+    height:45px;
+    width:150px;
+    border-radius:40px;
+    margin-top:80px;
+    cursor:pointer;
+}
+button:hover p{
+    color:white;
+}
+.col-3 {width: 25%;}
+.design{
+    display:flex;
+    flex-direction:row;
+}
+#card{
+    color:white;
+    padding:40px;
+    padding-left:40px;
+    width:200px;
+}
+#card .img{
+    padding-bottom:30px;
+    opacity:0.8;
+}
+#card .heading{
+    margin-bottom:20px;
+    font-size:25px;
+}
+#card .des{
+   line-height: 1.8;
+}
+.card-1{
+    background-color:#E28525;
+    border-radius: 10px 0 0 10px; 
+    margin-left:200px;
+    margin-top:200px;  
+}
+.card-1 button:hover{
+    border:2px solid white;
+    background-color:#E28525;
+    color:white;
+}
+.card-2{
+    background-color:#016972;
+    margin-top:200px;
+}
+.card-2 button:hover{
+    border:2px solid white;
+    background-color:#016972;  
+}
+.card-3{
+    background-color:#00403F;
+    border-radius: 0 10px 10px 0;
+    margin-top:200px;
+}
+.card-3 button:hover{
+    border:2px solid white;
+    background-color:#00403F;
+}
+
+@media (max-width:400px){
+    .design{
+        display:flex;
+        flex-direction:column;
+    }
+    .des{
+        padding:5px;
+    }
+    #card{
+        width:60%;
+    }
+    .card-1{
+        border-radius:10px 10px 0 0;
+        margin:50px 0 0 40px; 
+    }
+    .card-2{
+        margin:0px;
+        margin-left:40px;
+    }
+    .card-3{
+        border-radius:0 0 10px 10px;
+        margin-top:0;
+        margin-left:40px;
+    }
+}
